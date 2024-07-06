@@ -1,0 +1,12 @@
+{
+  "Name": "Kun and Mikun",
+  "Author": "LDXN",
+  "Version": "1.0.1",
+  "Description": "Added Kun Kun to Stardew Valley.",
+  "UniqueID": "LDXN.KunandMikun",
+  "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   "UpdateKeys": [ "17525" ],
+      "MinimumVersion": "1.6.1"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Strings.Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Mikun",
+            "Entries": {
+                "spring.000": "Spring in the forest is very charming.$8#$b#And there’s plenty of food, so I don’t have to worry about going hungry.$1",
+                "summer.000": "I have to practice even in the hot summer, the temperature is like a sauna!$6#$b#Yet I'm still persisting!#$e#Are you taking a break from your busy schedule?$2",
+                "fall.000": "There is always a lot of millet in the valley in autumn! This time is very suitable for foraging in the mountains.$8#$b#You should try it too!$1",
+                "winter.000": "There is something special here in winter, too, with snow-covered beaches and vast seas...$4#$b#Just...it's just a little cold, Ah Zhi! !$5#$b#%Just because Mirai sneezed.",
+                "rain.000": "Alas, my hair got wet along the way.$2#$b#I really don't like rainy days.$6#$e#Singing, dancing, rap and basketball are not allowed in the library, so I have to be prepared before going in.#$b#If my nest hadn't collapsed...$9",
+                "marriage.000": "oh! Baby, I just finished practice and need a break. We can play when we're not busy!$2",
+                "house.000": "My nest collapsed because of a heavy rain in the summer.$2#$b#It’s all my fault*Did it hit your fetus?*incident, now I have nowhere to live.$3",
+                "sing.000": "Just because you are so beautiful~Oh~~~Just because you are so beautiful~...$1#$b#You walking towards me make me ready to move...$4#$b#What should I do to you? It’s the first time I’ve been squashed like this~$5#$b#How can I deny it? …$4#$e#%Just because she is practicing singing in the future, she really doesn't seem to have the energy to care about you."
+            }
+        }
+    ]
+}

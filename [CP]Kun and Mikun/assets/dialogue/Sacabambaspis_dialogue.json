@@ -1,0 +1,18 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Sacabambaspis",
+            "Entries": {
+                "Introduction": "Saka~saka~ban~ban~ban!$1",
+                "Mon": "Saka~Saka~$1",
+                "Tue": "Saka, Saka... Ban, Ban!$2",
+                "Wed": "Saka...?$5",
+                "Thu": "Saka! Saka!$1",
+                "Fri": "Saka, Saka...Ban.$1",
+                "Sat": "Saka...?$5#$b#……class!",
+                "Sun": "Saka~Saka~Ban~!$1"
+            }
+        }
+    ]
+}

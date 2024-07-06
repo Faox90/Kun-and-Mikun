@@ -1,0 +1,175 @@
+{
+    "Format": "2.0.0",
+    "DynamicTokens": [
+        {
+            "Name": "IsOddYear",
+            "Value": "{{Query: {{Year}} % 2 = 1}}"
+        }
+    ],
+    "CustomLocations": [
+        {
+            "Name": "Custom_MikunRoom",
+            "FromMapFile": "assets/Maps/spouseroom/MikunSpouseRoom.tbin"
+        }
+    ],
+    "Changes": [
+        {
+            "LogName": "NPC Manifestation",
+            "Action": "Include",
+            "FromFile": "assets/data/npc_data.json"
+        },
+        {
+            "LogName": "Mikun Sprites",
+            "Action": "Load",
+            "Target": "Characters/Mikun",
+            "FromFile": "assets/Sprites/Mikun_Sprite.png"
+        },
+        {
+            "LogName": "Sacabambaspis Sprites",
+            "Action": "Load",
+            "Target": "Characters/Sacabambaspis",
+            "FromFile": "assets/Sprites/Sacabambaspis_sprite.png"
+        },
+        {
+            "LogName": "Mikun Beach Sprites",
+            "Action": "Load",
+            "Target": "Characters/Mikun_Beach",
+            "FromFile": "Assets/Sprites/Mikun_Sprites_Beach.png"
+        },
+        {
+            "LogName": "Mikun Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Mikun",
+            "FromFile": "assets/Portraits/Mikun_Portrait.png"
+        },
+        {
+            "LogName": "Sacabambaspis Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Sacabambaspis",
+            "FromFile": "assets/Portraits/Sacabambaspis_Portrait.png"
+        },
+        {
+            "LogName": "Mikun Beach Portraits",
+            "Action": "Load",
+            "Target": "Portraits/Mikun_Beach",
+            "FromFile": "Assets/Portraits/Mikun_Portraits_Beach.png"
+        },
+        {
+            "LogName": "Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/dialogue/Mikun_dialogue.json,assets/marriageDialogue/Mikun_MarriageDialogue.json,assets/dialogue/Sacabambaspis_dialogue.json"
+        },
+        {
+            "LogName": "Schedule Dialogue",
+            "Action": "Include",
+            "FromFile": "assets/ScheduleDialogue/Mikun_ScheduleDialogue.json,assets/ScheduleDialogue/Sacabambaspis_ScheduleDialogue.json"
+        },
+        {
+            "LogName": "Mikun Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Mikun",
+            "FromFile": "assets/schedule/Mikun_schedule.json"
+        },
+        {
+            "LogName": "Sacabambaspis Schedule",
+            "Action": "Load",
+            "Target": "Characters/schedules/Sacabambaspis",
+            "FromFile": "assets/schedule/Sacabambaspis_schedule.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "Mikunspouseroom.1": "{{i18n:StringsFromMaps.Mikunspouseroom.1}}",
+                "Mikunspouseroom.2": "{{i18n:StringsFromMaps.Mikunspouseroom.2}}"
+            }
+        },
+        {
+            "LogName": "Animation Description Strings",
+            "Action": "EditData",
+            "Target": "Strings/animationDescriptions",
+            "Entries": {
+                "Mikun_lean": "{{i18n:animationDescriptions.Mikun_lean}}",
+                "Mikun_basketball": "{{i18n:animationDescriptions.Mikun_basketball}}",
+                "Mikun_dance": "{{i18n:animationDescriptions.Mikun_dance}}",
+                "Mikun_hen": "{{i18n:animationDescriptions.Mikun_hen}}"
+            }
+        },
+        {
+            "LogName": "Animations",
+            "Action": "EditData",
+            "Target": "Data/animationDescriptions",
+            "Entries": {
+                "Mikun_sitback": "8/16/0",
+                "Mikun_sitfront": "0/17/0",
+                "Mikun_sitleft": "12/18/0",
+                "Mikun_lean": "23/21 21 21 20 20 20 20 20 22 22 22 22 22 20 20 20 20 20/39/Strings\\animationDescriptions:Mikun_lean",
+                "Mikun_basketball": "24/24 24 24 24 25 25 25 25 25 26 26 26 27 27 27 27 27 31 31 31/24/Strings\\animationDescriptions:Mikun_basketball",
+                "Mikun_dance": "0/34 34 34 34 29 29 29 30 30 30 29 29 29 30 30 30 29 29 29 34 34 34 19 19 19/0/Strings\\animationDescriptions:Mikun_dance",
+                "Mikun_change": "0/49 49 49 50 50 50 49 49 49 50 50 50 49 49 49 50 50 50 49 49 49 50 50 50 51 51 51/33/silent",
+                "Mikun_hen": "32/32 32 32 32 32 32 32 33 33 33/32/Strings\\animationDescriptions:Mikun_hen",
+                "Mikun_hensleep": "33/33/33",
+                "mikun_sleep": "48/48/48"
+            }
+        },
+        {
+            "LogName": "Engagement Dialogue",
+            "Action": "EditData",
+            "Target": "Data/EngagementDialogue",
+            "Entries": {
+                "Mikun0": "{{i18n:EngagementDialogue.Mikun0}}",
+                "Mikun1": "{{i18n:EngagementDialogue.Mikun1}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/rainy",
+            "Entries": {
+                "Mikun": "{{i18n:RainyDialogue.Mikun}}"
+            }
+        },
+        {
+            "LogName": "Movies",
+            "Action": "Include",
+            "FromFile": "assets/Movies/Mikun_appetite.json,assets/Movies/Mikun_movies.json,assets/Movies/MikunSpouse_movies.json"
+        },
+        {
+            "LogName": "Festivals",
+            "Action": "Include",
+            "FromFile": "assets/Festivals/Mikun_festivals.json"
+        },
+        {
+            "Action": "EditData",
+            "Target": "strings/StringsFromCSFiles",
+            "Entries": {
+                "Utility.cs.5367": "When @ first came to Pelican Town, no one knew whether he would be able to integrate smoothly into our community...#$b#But starting from today, @ will become one of us and build this town with us!$h#$b#exist{1}{0}I feel very honored on this day to witness @ and Just Because of the Future, two people from completely different places united by the bond of marriage. Let's celebrate this day!",
+                "Utility.cs.5369": "When @ first came to Pelican Town, no one knew whether she would be able to integrate smoothly into our community...#$b#But starting today, @ will be as much a part of this town as any of us!$h#$b#exist{1}{0}I feel very honored on this day to witness @ and Just Because of the Future, two people from completely different places united by the bond of marriage. Let us celebrate this moment together!",
+                "Utility.cs.5371": "@…just because of the future…#$b#In the future, regardless of health, disease, poverty, or wealth... you will work together to get through it!$h#$b#Well...look at the camera.#$b#As the mayor of Pelican Town, I now solemnly declare you husband and wife!$h",
+                "Utility.cs.5377": "@…just because of the future…#$b#In the future, regardless of health, disease, poverty, or wealth... you will work together to get through it!$h#$b#Well...look at the camera.#$b#As the mayor of Pelican Town, I now solemnly declare you to be partners!$h"
+            },
+            "When": {
+                "Relationship:Mikun": "Engaged"
+            }
+        },
+        {
+            "SpouseRoom": {
+                "MapAsset": "Custom_MikunRoom",
+                "MapSourceRect": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 6,
+                    "Height": 9
+                }
+            },
+            "SpousePatio": {
+                "MapAsset": "Mikun_Spouse_Area",
+                "MapSourceRect": {
+                    "X": 0,
+                    "Y": 0,
+                    "Width": 4,
+                    "Height": 4
+                }
+            }
+        }
+    ]
+}

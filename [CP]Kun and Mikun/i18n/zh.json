@@ -1,0 +1,54 @@
+{   
+     //npc名字  NPC Name
+
+    "NPCName:Mikun":"只因未来",
+    "NPCName:Sacabambaspis":"萨卡班甲鱼",
+
+     //npc喜好对话  NPC Gift Tastes
+
+     //Mikun
+    "Mikun.GiftTastes.love":"送给我的？太棒了@。$11#$b#这才是配得上只因的礼物,你是一个真正的ikun！$1",
+    "Mikun.GiftTastes.like":"谢谢，你是一个合格的ikun。这正是我需要的。$8",
+    "Mikun.GiftTastes.dislike":"啊！一点荔枝都没有吗你。$6#$b#你一定是小黑子吧！$2",
+    "Mikun.GiftTastes.hate":"你？！……油饼食不食！香精煎鱼食不食！$7#$b#快走开！我要报井了！$3",
+    "Mikun.GiftTastes.neutral":"谢谢，我会把每个ikun给的礼物放到窝里。",
+
+     //Sacabambaspis
+    "Sacabambaspis.GiftTastes.love":"萨卡~萨卡~$4#$b#……班~班！",
+    "Sacabambaspis.GiftTastes.like":"萨卡、萨卡……班、班！",
+    "Sacabambaspis.GiftTastes.dislike":"萨卡……？$5#$b#……班！",
+    "Sacabambaspis.GiftTastes.hate":"萨卡！萨卡！",
+    "Sacabambaspis.GiftTastes.neutral":"萨卡、萨卡……班。",
+
+     //地图注释  StringsFromMaps
+
+    "StringsFromMaps.Mikunspouseroom.1":"一个巨大的坤坤玩偶，放在篮球架里。",
+    "StringsFromMaps.Mikunspouseroom.2":"篮球上站着一只鸡，哦，它实在是太美了……",
+
+     //动画对话  Animation Description Strings
+
+    "animationDescriptions.Mikun_lean":"%只因未来在铁山靠，没有时间理你。",
+    "animationDescriptions.Mikun_basketball":"%胯下运球！好球！#$b#%不愧是曾代表芬吉尔国家校队打比赛的只因未来！",
+    "animationDescriptions.Mikun_dance":"%只因未来的著名只因舞，极具观赏价值。",
+    "animationDescriptions.Mikun_hen":"%糟糕！魔力不稳定！#$b#%她变回原形了！",
+
+     //婚礼前对话  Engagement Dialogue
+
+    "EngagementDialogue.Mikun0":"啊！我要结婚了？$5#$b#要和你生小鸡了。$4",
+    "EngagementDialogue.Mikun1":"期待吗@，马上就是婚礼了。$4",
+
+     //雨天对话  Rainy Dialogue
+
+    "RainyDialogue.Mikun":"下雨了哎。$2#$b#我没法去打篮球了。$2#$e#@？#$b#算了，没关系，我会去图书馆躲一躲的。$8",
+
+     //电影反映  MoviesReactions
+
+
+
+
+
+
+
+
+
+}

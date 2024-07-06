@@ -1,0 +1,43 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/ConcessionTastes",
+            "Entries": {
+                "Mikun": {
+                    "NPCName": "Mikun",
+                    "LovedTags": [
+                        "Black Licorice",
+                        "Popcorn",
+                        "Fries",
+                        "JojaCorn",
+                        "Stardrop Sorbet"
+                    ],
+                    "LikedTags": [
+                        "Salted Peanuts",
+                        "Nachos",
+                        "Truffle Popcorn",
+                        "Apple Slices",
+                        "Kale Smoothie"
+                    ],
+                    "DislikedTags": [
+                        "Ice Cream Sandwich",
+                        "Cotton Candy",
+                        "Rock Candy",
+                        "Sour Slimes",
+                        "Star Cookie",
+                        "Chocolate Popcorn",
+                        "Cappuccino Mousse Cake",
+                        "Salmon Burger",
+                        "Panzanella Salad",
+                        "Jawbreaker",
+                        "Hummus Snack Pack",
+                        "Jasmine Tea",
+                        "Personal Pizza",
+                        "Joja Cola"
+                    ]
+                }
+            }
+        }
+    ]
+}

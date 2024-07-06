@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "LogName": "Strings.Dialogue",
+            "Action": "EditData",
+            "Target": "Strings/schedules/Sacabambaspis",
+            "Entries": {
+                "spring.000": "Saka.$1",
+                "summer.000": "Saka.",
+                "fall.000": "Saka.",
+                "winter.000": "Saka.",
+                "rain.000": "Saka."
+            }
+        }
+    ]
+}

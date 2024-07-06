@@ -1,0 +1,137 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Mikun": {
+                    "DisplayName": "{{i18n:NPCName:Mikun}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 20,
+                    "HomeRegion": "Town",
+                    "Language": "Default",
+                    "Gender": "Female",
+                    "Age": "Teen",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "IsDarkSkinned": false,
+                    "CanBeRomanced": true,
+                    "LoveInterest": "",
+                    "CanSocialize": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "SocializeConditions": null,
+                    "CanVisitIslandCondition": null,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": true,
+                    "SpouseGiftJealousy": true,
+                    "EndSlideShow": "MainGroup",
+                    "SpouseRoom": {
+                        "MapAsset": "Custom_MikunRoom",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Forest",
+                            "Tile": {
+                                "X": 12,
+                                "Y": 86
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                "Sacabambaspis": {
+                    "DisplayName": "{{i18n:NPCName:Sacabambaspis}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 4,
+                    "HomeRegion": "Town",
+                    "Language": "Dwarvish",
+                    "Gender": "undefined",
+                    "Age": "Child",
+                    "Manner": "Neutral",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanSocialize": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "SocializeConditions": null,
+                    "CanVisitIslandCondition": null,
+                    "ExcludeFromIntroductionsQuest": false,
+                    "ExcludeFromPerfectionScore": false,
+                    "IntroductionsQuest": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "FriendsAndFamily": {},
+                    "UnlockConditions": null,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Condition": null,
+                            "Location": "Beach",
+                            "Tile": {
+                                "X": 81,
+                                "Y": 8
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "TextureName": null,
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "CustomFields": {}
+                }
+            }
+        },
+        {
+            "LogName": "NPC Gift Tastes",
+            "Action": "EditData",
+            "Target": "Data/NPCGiftTastes",
+            "Entries": {
+                "Mikun": "{{i18n:Mikun.GiftTastes.love}}/113 232 281 432/{{i18n:Mikun.GiftTastes.like}}/-74 262 271 297 423 684 719 874/{{i18n:Mikun.GiftTastes.dislike}}/-5 -27 107 219 457/{{i18n:Mikun.GiftTastes.hate}}/-4 306 303 807/{{i18n:Mikun.GiftTastes.neutral}}/-28 -80 74/ ",
+                "Sacabambaspis": "{{i18n:Sacabambaspis.GiftTastes.love}}/88 253 395 614 873/{{i18n:Sacabambaspis.GiftTastes.like}}/-5 -6 -23 6 575 768 769 815/{{i18n:Sacabambaspis.GiftTastes.dislike}}/346 400 436 438/{{i18n:Sacabambaspis.GiftTastes.hate}}/205 281 257 404 420 422 850/{{i18n:Sacabambaspis.GiftTastes.neutral}}/-4 232 376/ "
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+            "Entries": {
+                "Sacabambaspis": {
+                    "MarkerCropOffset": 17
+                },
+                "When": {
+                    "HasMod: |contains=Bouhm.NPCMapLocations": true
+                }
+            }
+        }
+    ]
+}

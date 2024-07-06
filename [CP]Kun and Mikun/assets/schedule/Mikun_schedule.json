@@ -1,0 +1,26 @@
+{
+  //周常日程
+  "Mon":"610 Forest 12 86 2/700 Forest 72 32 3 Mikun_basketball/1000 Town 27 97 2/1300 Town 29 67 2 Mikun_lean/1600 Town 32 38 2 Mikun_sitfront/1800 Town 75 46 3 \"Strings\\schedules\\Mikun:sing.000\"/2000 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "Tue":"610 Forest 12 86 2/800 Forest 70 50 2/1100 SeedShop 11 23 0/1330 SeedShop 12 29 3/1350 SeedShop 11 23 0/1410 SeedShop 12 29 3/1430 SeedShop 11 23 0/1500 Town 71 11 0 Mikun_sitback/1700 Mountain 35 21 2/1900 Forest 12 86 2/2340 Forest 12 86 2 Mikun_change/2350 Forest 12 86 2 Mikun_hensleep",
+  "Wed":"610 Forest 12 86 2/730 AnimalShop 15 15 3/1100 Town 43 77 2 Mikun_sitfront/1300 Mountain 32 5 2/1700 Town 59 40 2/1850 Town 59 40 2 Mikun_change/1900 Town 59 40 2 Mikun_hen/1950 Town 59 40 2 Mikun_change/2000 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "Thu":"610 Forest 12 86 2/800 Forest 34 25 2/1100 Forest 70 50 2/1300 Town 46 32 2/1700 Town 75 46 3 \"Strings\\schedules\\Mikun:sing.000\"/1900 Forest 48 30 3/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "Fri":"610 Forest 12 86 2/800 Forest 48 30 3/1200 Beach 53 6 2 Mikun_sitfront/1500 Beach 48 22 2 Mikun_dance/1800 Saloon 41 23 0/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "Sat":"610 Forest 12 86 2/730 Forest 67 25 2 Mikun_dance/1100 Town 29 67 2 Mikun_lean/1400 Town 32 38 2 Mikun_sitfront/1630 Saloon 3 19 2 Mikun_sitfront/1900 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "Sun":"610 Forest 12 86 2/730 Forest 72 35 2 Mikun_basketball/1000 Forest 34 25 2/1300 Mountain 57 20 2/1800 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  //雨天和绿雨（绿雨暂时性）
+  "rain": "610 Forest 12 86 2/630 Town 104 89 2 \"Strings\\schedules\\Mikun:rain.000\"/1100 ArchaeologyHouse 1 10 0 Mikun_sitback/1800 Saloon 2 22 2 Mikun_sitfront/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "GreenRain": "610 Forest 12 86 2/730 Forest 21 66 2/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  //季节性的
+  "spring_Thu": "610 Forest 12 86 2/730 Forest 21 66 2 \"Strings\\schedules\\Mikun:spring.000\"/900 Beach 16 8 0 \"Strings\\schedules\\Mikun:house.000\"/1400 ArchaeologyHouse 13 18 0 Mikun_sitback/1800 Forest 34 25 2/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "summer_Sun": "610 Forest 12 86 2/730 Forest 72 35 2 Mikun_basketball/1000 Railroad 25 52 2/1500 Mountain 62 10 2 \"Strings\\schedules\\Mikun:summer.000\"/1800 Saloon 3 19 2 Mikun_sitfront/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "fall_Wed": "610 Forest 12 86 2/730 Forest 21 66 2 \"Strings\\schedules\\Mikun:fall.000\"/900 AnimalShop 15 15 3/1200 Mountain 32 5 2/1700 Town 91 9 1/1900 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "winter_Fri": "610 Forest 12 86 2/800 WizardHouse 5 21 3 Mikun_sitleft/1200 Beach 53 6 2 Mikun_sitfront/1600 Beach 48 22 2 \"Strings\\schedules\\Mikun:winter.000\"/1800 Saloon 2 22 2 Mikun_sitfront/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  //特殊日期（海滩潮汐和夜市，沙漠节暂无）
+  "summer_12": "610 Forest 12 86 2/800 WizardHouse 5 21 3 Mikun_sitleft/1130 Beach 53 6 2 Mikun_sitfront/1530 Beach 42 34 2 Mikun_sitfront/1800 Saloon 41 23 0/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "summer_13": "610 Forest 12 86 2/800 WizardHouse 5 21 3 Mikun_sitleft/1130 Beach 53 6 2 Mikun_sitfront/1530 Beach 42 34 2 Mikun_sitfront/1800 Saloon 3 19 2 Mikun_sitfront/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "winter_16": "610 Forest 12 86 2/730 Forest 70 50 2/1000 Town 43 77 2 Mikun_sitfront/1230 ArchaeologyHouse 13 18 0 Mikun_sitback/1730 Beach 37 34 2/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  "winter_17": "610 Forest 12 86 2/730 Town 75 46 3 \"Strings\\schedules\\Mikun:sing.000\"/1400 ArchaeologyHouse 13 18 0 Mikun_sitback/1800 Beach 53 6 2/2100 Forest 12 86 2/2330 Forest 12 86 2 Mikun_change/2340 Forest 12 86 2 Mikun_hensleep",
+  //婚后
+  "marriage_Mon": "700 Town 63 30 2 Mikun_basketball/1000 Town 29 67 Mikun_lean/1300 Town 75 46 3 \"Strings\\schedules\\Mikun:marriage.000\"/1600 Saloon 3 19 2 Mikun_sitfront/2100 BusStop -1 23 3",
+  "marriage_Sat": "800 Town 29 67 2 Mikun_lean/1000 Town 63 30 2 Mikun_dance/1300 Town 71 11 0 Mikun_sitback/1600 Beach 48 22 2 \"Strings\\schedules\\Mikun:marriage.000\"/1900 Saloon 3 19 2 Mikun_sitfront/2100 BusStop -1 23 3",
+}

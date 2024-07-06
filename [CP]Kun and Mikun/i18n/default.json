@@ -1,0 +1,45 @@
+{   
+     //npc名字  NPC Name
+
+    "NPCName:Mikun":"Mikun",
+    "NPCName:Sacabambaspis":"Sacabambaspis",
+
+     //npc喜好对话  NPC Gift Tastes
+
+     //Mikun
+    "Mikun.GiftTastes.love":"For me? That's awesome @. $11#$b# This is a gift worthy of Jiyin, you are a true ikun! $1",
+    "Mikun.GiftTastes.like":"Thank you, you are a qualified ikun. This is exactly what I need. $8",
+    "Mikun.GiftTastes.dislike":"Ah! There are no lychees at all. $6#$b# You must be a black guy! $2",
+    "Mikun.GiftTastes.hate":"You?! ... You don't want to eat fried cakes! You don't want to eat fried fish with essence! $7#$b# Go away! I want to report the well! $3",
+    "Mikun.GiftTastes.neutral":"Thank you, I will put every gift given by ikun in my nest.",
+
+     //Sacabambaspis
+    "Sacabambaspis.GiftTastes.love":"Saka~Saka~$4#$b#...Ban~Ban!",
+    "Sacabambaspis.GiftTastes.like":"Saka, Saka...Ban, Ben!",
+    "Sacabambaspis.GiftTastes.dislike":"Saka…? $5#$b#…class!",
+    "Sacabambaspis.GiftTastes.hate":"Saka! Saka!",
+    "Sacabambaspis.GiftTastes.neutral":"Saka, Saka…Ban.",
+
+     //地图注释  StringsFromMaps
+
+    "StringsFromMaps.Mikunspouseroom.1":"A huge KunKun doll is placed in the basketball hoop.",
+    "StringsFromMaps.Mikunspouseroom.2":"There is a chicken standing on the basketball, oh, it is so beautiful...",
+
+     //动画对话  Animation Description Strings
+
+    "animationDescriptions.Mikun_lean":"%Just because my future is in Tieshan, I don’t have time to care about you.",
+    "animationDescriptions.Mikun_basketball":"%Crotch dribbling! Good shot! #$b#% As expected of the future who once played for the Finger National School Team!",
+    "animationDescriptions.Mikun_dance":"%Just because of the future famous just because of the dance, it is very worth watching.",
+    "animationDescriptions.Mikun_hen":"%Oops! The magic power is unstable! #$b#% She has returned to her original form!",
+
+     //婚礼前对话  Engagement Dialogue
+
+    "EngagementDialogue.Mikun0":"Ah! I'm getting married? $5#$b# I'm going to have a baby with you. $4",
+    "EngagementDialogue.Mikun1":"Are you looking forward to it? The wedding is coming soon. $4",
+
+     //雨天对话  Rainy Dialogue
+
+    "RainyDialogue.Mikun":"It's raining. $2#$b#I can't go play basketball. $2#$e#@? #$b#Forget it, it's okay, I'll go to the library to hide. $8",
+
+     //电影反映  MoviesReactions
+}

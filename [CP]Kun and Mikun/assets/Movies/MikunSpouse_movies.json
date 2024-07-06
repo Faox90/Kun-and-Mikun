@@ -1,0 +1,223 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Strings/Characters",
+            "Entries": {
+                "MovieInvite_Spouse_Mikun": "See a movie? Going on a date?$8#$b#Of course baby! I am glad to!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/MoviesReactions",
+            "Entries": {
+                "Mikun": {
+                    "NPCName": "Mikun",
+                    "Reactions": [
+                        {
+                            "Tag": "family",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": null,
+                            "ID": "reaction_0"
+                        },
+                        {
+                            "Tag": "horror",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": null,
+                            "ID": "reaction_1"
+                        },
+                        {
+                            "Tag": "spring_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Is it a children's movie? A family friendly movie.$8#$b#My dear, you are interested.$4"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Just because the future looks satisfying.#$b#Well, these little saplings are so cute.$4#$b#I hope our chicks can be so cute!$1"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Just because the future is snickering.#$b#The perfect children's coming of age story, I was so inspired!$1"
+                                }
+                            },
+                            "ID": "reaction_2"
+                        },
+                        {
+                            "Tag": "summer_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "%Just because of the future looking at the poster.#$b#ah! It's a Western movie!$4#$b#I love western stories, so looking forward to it.$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake Mikun 3000/pause 500/message \"Just because Mirai stared at the screen excitedly, she was deeply attracted!\"",
+                                    "Text": "Ah ~ what a terrible conspiracy! Nervous!$7#$b#These hateful villains, the King of the Prairie will not let you succeed!$6"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "So beautiful!$1#$b#Life in the west looks so good…$4#$b#What do you think, my king of the prairie?$8"
+                                }
+                            },
+                            "ID": "reaction_3"
+                        },
+                        {
+                            "Tag": "fall_movie_0",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Um……? Mysterious deeds?#$b#What kind of movie is this...it doesn't feel like it's suitable for family viewing.$2"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake Mikun 3000/pause 500/message \"Just because of the future shuddered.\"",
+                                    "Text": "No, this is inappropriate!$6"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "@, It's a horror movie, I don't want us to watch this again...$2#$b#I guess that's not good for the chicks.$9"
+                                }
+                            },
+                            "ID": "reaction_4"
+                        },
+                        {
+                            "Tag": "winter_movie_0",
+                            "Response": "love",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Hmm...a home movie?#$b#So good baby! You really understand me!$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake Mikun 3000/pause 500/message \"Just because the future is sobbing.\"",
+                                    "Text": "What...what a heartbreaking thing...what should they do..."
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Great, they're fine!$9#$b#%Just because the future said sobbed again.#$b#How terrible it would be if the miracle didn't happen... Fortunately, they were okay in the end.$2#$b#@, I'm glad this kind of thing didn't happen to our family.$8"
+                                }
+                            },
+                            "ID": "reaction_5"
+                        },
+                        {
+                            "Tag": "spring_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Natural scenery? It sounds wonderful.$8#$b#I love natural scenery!$1#$b#I can't wait, we'll go in as soon as the movie starts!$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What a beautiful place!$1#$b#What a beautiful island! The scenery here looks perfect for chicken life!$4"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Is it over already... it's too fast, I haven't seen enough yet.$2#$b#The movie mentions Stardew Valley.#$b#I think they should come to the farm to film!$1#$b#%The farm is the most beautiful and suitable!"
+                                }
+                            },
+                            "ID": "reaction_6"
+                        },
+                        {
+                            "Tag": "summer_movie_1",
+                            "Response": "dislike",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Sci-fi comedy? My dear, you are always so funny...$8#$b#Looks like a family-friendly popcorn movie, maybe something to relax in later?$1"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake Mikun 3000/pause 500/message \"Just tremble because of the future.\"",
+                                    "Text": "...Uh...you cake...$2#$b#It doesn’t even come with plum juice!$6#$b#Oh my God! The people on this planet are so tasteless! I can't stand it anymore!$3"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Alas, this would have been a good popcorn movie...$2#$b#The director's bad taste ruined it!$6"
+                                }
+                            },
+                            "ID": "reaction_7"
+                        },
+                        {
+                            "Tag": "fall_movie_1",
+                            "Response": "hate",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "What's this? Horror movie?$5#$b#@, I...I think this is not suitable for families...#$b#Especially chicks…$2"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "/shake Mikun 3000/pause 500/message \"Just because the future seems to be trembling... maybe she's right...\"",
+                                    "Text": "Sigh - I, I'm not afraid at all...$2#$b#No - I don't dare to look...$9"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It’s so scary! ?$9#$b#Let’s not watch this kind of thing next time, okay?$9#$b#%Maybe her feelings and family should be considered."
+                                }
+                            },
+                            "ID": "reaction_8"
+                        },
+                        {
+                            "Tag": "winter_movie_1",
+                            "Response": "like",
+                            "Whitelist": [],
+                            "SpecialResponses": {
+                                "BeforeMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It seems to be an old movie...it's really surprising.#$b#Why? It’s not that I don’t like old movies, I just don’t like them in most cases.#$b#After all, even the reset screen always flickers or blurs...$8"
+                                },
+                                "DuringMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "It’s quite a period picture.$8"
+                                },
+                                "AfterMovie": {
+                                    "ResponsePoint": null,
+                                    "Script": "",
+                                    "Text": "Love...an ancient and eternal topic.#$b#%Just because the future seems to be lost in thought."
+                                }
+                            },
+                            "ID": "reaction_9"
+                        }
+                    ]
+                }
+            },
+            "When": {
+                "Relationship:Mikun": "Married"
+            }
+        }
+    ]
+}

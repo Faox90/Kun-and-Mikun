@@ -1,0 +1,414 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 27 62 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mikun 27 62 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 9 20 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mikun 7 20 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 25 36 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mikun 25 36 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 30 19 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters"
+                    ],
+                    "Value": "Mikun 30 19 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 27 97 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 29 32 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 42 41 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters"
+                    ],
+                    "Value": "Mikun 42 41 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters"
+                    ],
+                    "Value": "Mikun 35 89 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring13",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 27 62 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 27 62 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/spring24",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 9 20 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 7 20 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 25 36 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 25 36 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer28",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 30 19 down",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "MainEvent_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 30 19 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall16",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 27 97 right",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/fall27",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 29 32 left",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter8",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 42 41 up",
+                    "Delimiter": "/"
+                },
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Main-Event_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 42 41 up",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Festivals/winter25",
+            "TextOperations": [
+                {
+                    "Operation": "Append",
+                    "Target": [
+                        "Entries",
+                        "Set-Up_additionalCharacters_y2"
+                    ],
+                    "Value": "Mikun 35 89 down",
+                    "Delimiter": "/"
+                }
+            ]
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring13",
+            "Entries": {
+                "Mikun": "Very good@! You came.$1#$e#This is definitely my favorite holiday, have fun.$8",
+                "Mikun_Spouse": "There you go sweetheart.$8#$b#Do you plan to continue collecting Easter eggs?#$b#It doesn’t matter if you don’t go! Festivals are fun no matter what!$1#$e#Let's go get something to eat together.$8",
+                "Mikun_y2": "Very good@! You came.$1#$e#This is definitely my favorite holiday, have fun.$8",
+                "Mikun_Spouse_y2": "There you go sweetheart.$8#$b#Do you plan to continue collecting Easter eggs?#$b#It doesn’t matter if you don’t go! Festivals are fun no matter what!$1#$e#Let's go get something to eat together.$8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/spring24",
+            "Entries": {
+                "Mikun": "Actually, I just came to take a look. This kind of dance is too old-fashioned.$2#$b#It would be great if I could dance just because...",
+                "Mikun_Spouse": "Although it is an ancient dance, I will be happy if you are here.$8#$b#Want to dance, honey? I would like to be with you...$4#$e#Wait...you shouldn't be looking for someone else to dance with first...$5",
+                "Mikun_y2": "Actually, I just came to take a look. This kind of dance is too old-fashioned.$2#$b#It would be great if I could dance just because...",
+                "Mikun_Spouse_y2": "Although it is an ancient dance, I will be happy if you are here.$8#$b#Want to dance, honey? I would like to be with you...$4#$e#Wait...you shouldn't be looking for someone else to dance with first...$5"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer11",
+            "Entries": {
+                "Mikun": "It’s such a hot summer@, are you going to dance there?$8#$e#I? No...it's too hot, I'm going to melt...$2",
+                "Mikun_Spouse": "Phew...so hot!$6#$b#Have you prepared the ingredients for the soup? sweetheart.$8#$e#I’m looking forward to this year’s soup.$1",
+                "Mikun_y2": "It’s such a hot summer@, are you going to dance there?$8#$e#I? No...it's too hot, I'm going to melt...$2",
+                "Mikun_Spouse_y2": "Phew...so hot!$6#$b#Have you prepared the ingredients for the soup? sweetheart.$8#$e#I’m looking forward to this year’s soup.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/summer28",
+            "Entries": {
+                "Mikun": "To be honest, they dance pretty well.$5#$e#The jellyfish dances so beautifully...$2",
+                "Mikun_Spouse": "The jellyfish dances beautifully this year, right?$8#$b#Summer is coming to an end so soon.$2#$e#But autumn is worth looking forward to, I love autumn.$1",
+                "Mikun_y2": "To be honest, they dance pretty well.$5#$e#The jellyfish dances so beautifully...$2",
+                "Mikun_Spouse_y2": "The jellyfish dances beautifully this year, right?$8#$b#Summer is coming to an end so soon.$2#$e#But autumn is worth looking forward to, I love autumn.$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall16",
+            "Entries": {
+                "Mikun": "Are you also here for big shopping, or to play games?#$b#That divination is very interesting, I recommend you try it!$1",
+                "Mikun_Spouse": "Put your products on the stand!$1#$b#I think you are definitely number one!$1#$e#We can also play some games together, honey.$8",
+                "Mikun_y2": "Are you also here for big shopping, or to play games?#$b#That divination is very interesting, I recommend you try it!$1",
+                "Mikun_Spouse_y2": "Put your products on the stand!$1#$b#I think you are definitely number one!$1#$e#We can also play some games together, honey.$8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/fall27",
+            "Entries": {
+                "Mikun": "That thing in that cage over there...$2#$b#I am afraid……$9",
+                "Mikun_Spouse": "I'm still scared...$2#$b#You still have the courage! This is what fascinates me about you.$4#$e#Thank you for bringing me this food!$1",
+                "Mikun_y2": "That thing in that cage over there...$2#$b#I am afraid……$9",
+                "Mikun_Spouse_y2": "I'm still scared...$2#$b#You still have the courage! This is what fascinates me about you.$4#$e#Thank you for bringing me this food!$1"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+                "Mikun": "Do you want to join in the fishing? Come on!$8",
+                "Mikun_Spouse": "I have a hunch...#$b#You will still be number one in fishing this year!$1#$b#Come on honey, if you don't want to participate, we can go play in the snow.$8",
+                "Mikun_y2": "Do you want to join in the fishing? Come on!$8",
+                "Mikun_Spouse_y2": "I have a hunch...#$b#You will still be number one in fishing this year!$1#$b#Come on honey, if you don't want to participate, we can go play in the snow.$8"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter25",
+            "Entries": {
+                "Mikun": "It’s such a heartwarming holiday, isn’t it?$8#$b#It would be better if you weren’t inundated with gifts.$6",
+                "Mikun_Spouse": "This year is coming to an end soon...#$b#I think I still love you!$1#$b#We can spend more winters together, because you are my summer!$8",
+                "Mikun_y2": "It’s such a heartwarming holiday, isn’t it?$8#$b#It would be better if you weren’t inundated with gifts.$6",
+                "Mikun_Spouse_y2": "This year is coming to an end soon...#$b#I think I still love you!$1#$b#We can spend more winters together, because you are my summer!$8"
+            }
+        }
+    ]
+}
